@@ -1,0 +1,292 @@
+h1 {
+	margin-bottom: 0px;
+}
+
+textarea {
+	resize: none;
+}
+
+p, label, #adminTable tr {
+	font-family: Arial;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+}
+
+.link {
+	font-family: Arial;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 600;
+	text-decoration: none;
+	color: grey;
+}
+
+.button {
+	margin: 10px;
+	margin-left: 0;
+	padding: 8px 15px;
+	background: Gainsboro;
+	border: 1px solid rgba(0,0,0,0.15);
+	text-shadow: 0 1px rgba(255,255,255,0.7);
+}
+.button:hover {
+	background: #6495ED;
+}
+#terminate {
+	margin-top: 4px;
+	margin-left: 4px;
+}
+#terminate:hover {
+	background: #ff1717;
+}
+
+.chatControls {
+	margin: 10px;
+	margin-left: 0;
+	margin-right: 0px;
+	padding: 5px 15px;
+	background: Gainsboro;
+	display: block;
+  	border: 2px solid Gainsboro;
+  	border-color: #c0c0c0;
+	text-shadow: 0 1px rgba(255,255,255,0.7);
+}
+.chatControls:hover {
+	background: #E8E8E8;
+	outline: none;
+ 	border-color: #6495ED;
+}
+
+.input {
+  display: block;
+  padding: 5px;
+  border: 3px solid Gainsboro;
+}
+.input:focus { 
+  outline: none;
+  border-color: #6495ED;
+}
+
+#nav {
+	width: 100%;
+	float: right;
+	margin: 0 0 3em 0;
+	padding: 0;
+	list-style: none;
+	background-color: Gainsboro;
+	border-radius: 10px;
+}
+#nav li {
+	float: right;
+}
+#nav #skeletonLogo {
+	float: left;
+}
+#NavfloatLeft {
+	float: left;
+}
+#nav li p {
+	margin-top: 0px;
+	padding: 8px 15px;
+    text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+}
+.headerLink {
+	display: block;
+	padding: 8px 15px;
+    text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+	color: #069;
+	border-right: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	border-radius: 10px;
+}
+.headerLink:hover {
+	background-color: #6495ED;
+}
+
+.homeButton {
+    display: inline-block;
+    margin: 10px;
+    border-radius: 8px;
+    font-size: 50px;
+    font-family: fantasy;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 0px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.homeButton span {
+    display: inline-block;
+    padding: 20px 30px;
+    background-color: #069;
+    border-radius: 8px;
+    line-height: 1;
+}
+.homeButton:hover span {
+    background-color: #6495ED;
+}
+#disabledHomeButton span {
+	background-color: #909090;
+}
+#homeButtonSubtitle {
+	text-align: center;
+	margin-top: 0px;
+}
+
+#accountSettingsDiv {
+	float: left;
+	margin-left: 1em;
+}
+
+#adminTable {
+	background-color: WhiteSmoke;
+	border-radius: 10px;
+	text-align: center;
+}
+#adminTable tr:hover {
+	background-color: #6495ED;
+}
+#adminTable th {
+	font-weight: bold;
+}
+
+.adminTableButton {
+	font-weight: bold;
+}
+
+#chatArea {
+	height: 98%;
+	margin-left: 1em;
+	margin-top: 1em;
+	margin-right: 1em;
+	max-height: 350px;
+	overflow-y: scroll;
+	border: 3px solid Gainsboro;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: white;
+}
+.me {
+	color: blue;
+	font-family: Verdana;
+}
+.him {
+	color: red;
+	font-family: Verdana;
+}
+
+#status {
+	border-radius: 10px;
+	float: right;
+	background-color: Gainsboro;
+	width: 13%;
+	height: 430px;
+	margin-top: 1em;
+	margin-right: 1em;
+	margin-left: 1em"
+}
+#inputMsgField {
+	width: 80%;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+#msg {
+	width: 98%;
+}
+.statusMsg {
+	margin-left: 14px;
+	margin-right: 14px;
+	font-weight: bold;
+}
+.statusInfo {
+	color: #ff0000;
+	margin: 0px;
+}
+.infoImg {
+	margin: 0px;
+	display: inline;
+}
+
+#siteBackground {
+	background-color: WhiteSmoke;
+}
+.mainBody {
+	border-radius: 10px;
+	float: right;
+	background-color: white;
+	width: 96%;
+	height: 430px;
+	margin-top: 1em;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+.inMainBody {
+	margin-left: 1em;
+}
+#skeletonUp {
+	border-radius: 10px;
+	float: right;
+	background-color: Gainsboro;
+	width: 96%;
+	height: 100px;
+	margin-top: 1em;
+	margin-right: 1em;
+	margin-left: 1em;
+}
+#skeletonDown {
+	border-radius: 10px;
+	float: right;
+	background-color: Gainsboro;
+	width: 96%; height: 50px;
+	margin-top: 1em;
+	margin-right: 1em;
+	margin-left: 1em;
+	text-align: center;
+}
+#mainChatBody {
+	border-radius: 10px;
+	float: right;
+	background-color: white;
+	width: 82%;
+	height: 430px;
+	margin-top: 1em;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+#inMainChatBody {
+	height: 100px;
+	margin-left: 1em;
+	margin-right: 1em;
+	margin-top: 0em;
+}
+
+.fontWeightBold {
+	font-weight: bold;
+}
+.displayInline {
+	display: inline;
+}
+.displayBlock {
+	display: block;
+}
+.floatLeft {
+	float: left;
+}
+.noTopMargin {
+	margin-top: 0px;
+}
+.noBottomMargin {
+	margin-bottom: 0px;
+}
+.smallTopMargin {
+	margin-top: 4px;
+}
